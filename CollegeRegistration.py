@@ -7,7 +7,7 @@ root = Tk()
 root.geometry("1900x950")
 root.minsize(1900, 950)
 try:
-    mydb = mysql.connector.connect(host='localhost', user='root', password='Death@123', database='studentregistration')
+    mydb = mysql.connector.connect(host='localhost', user='root', password='#', database='studentregistration')
     cursor = mydb.cursor()
     def adddata():
         id=var1.get()
